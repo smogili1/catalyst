@@ -367,7 +367,7 @@ class ExchangeTradingAlgorithmBacktest(ExchangeTradingAlgorithmBase):
 
         self.frame_stats = list()
         self.state = {}
-        log.info('initialized trading algorithm in backtest mode')
+        log.info('initialized trading algorithm in backtest mode2')
 
     def is_last_frame_of_day(self, data):
         # TODO: adjust here to support more intervals

@@ -723,6 +723,7 @@ class TradingAlgorithm(object):
         try:
             perfs = []
             for perf in self.get_generator():
+                log.info('laboo')
                 perfs.append(perf)
 
             # convert perf dict to pandas dataframe
